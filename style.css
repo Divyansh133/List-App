@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: red;
+}
+
+.header {
+  background-color: blue;
+  padding: 30px 40px;
+  color: cornsilk;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0;
+  padding: 5px;
+  color: white;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  margin-left: 5px;
+  width: 60%;
+  padding: 10px 0;
+
+  font-size: 16px;
+}
+
+#submit {
+  padding: 10px 0;
+  width: 15%;
+  background-color: #d9d9d9;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.task {
+  margin: 10px 0;
+  color: white;
+}
+
+.add-form {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 16px;
+  background: #eee;
+  padding: 10px;
+  margin: 5px 500px;
+  font-size: 20px;
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+  margin: 0 3px;
+  padding: 2px;
+}
+
+.edit {
+  float: right;
+  background-color: green;
+  font-size: 14px;
+  color: white;
+  margin: 0 3px;
+  padding: 2px;
+}

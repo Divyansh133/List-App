@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <font face="Comic sans MS" size="11" color="black">
+        <strong>ToDo List</strong>
+      </font>
+    </header>
+
+    <div class="container">
+      <h2>Add Items</h2>
+
+      <label id="lblsuccess" class="text-success" style="display: none">
+      </label>
+
+      <form id="addForm">
+        <div class="row">
+          <input
+            type="text"
+            onkeyup="toggleButton(this, 'submit')"
+            class="form-control"
+            id="item"
+            placeholder="Enter item"
+          />
+
+          <input
+            type="submit"
+            class="btn"
+            id="submit"
+            value="Submit"
+            disabled
+          />
+        </div>
+      </form>
+
+      <h3 class="task">Tasks</h3>
+
+      <form id="addForm">
+        <ul class="list-group" id="items"></ul>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
